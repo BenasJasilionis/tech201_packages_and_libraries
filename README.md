@@ -36,4 +36,5 @@ This allows us to just call the function as normal without specifying the file n
 * `math`- has many built-in arithmetic operations
 * `sys`- shows you where you are in your machine
 
-# Libraries
+# Packages
+
