@@ -29,6 +29,7 @@ A `HTTP` request is made by a client and sent to a named host which is located o
 
 ### HTTP responses
 This is the servers response to the clients request. The response aims to provide the client with the requested information, to inform the client that the request has been carried out or to inform the client of any errors which my have occurred. The response comprises : the `status line`, `HTTP headers` and `message body`
+
 ![](http_res_elements.png)
 
 
