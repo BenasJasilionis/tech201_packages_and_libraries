@@ -8,7 +8,7 @@ Functionally, APIs take requests from users and format that into an acceptable f
 ![](api.png)
 * An `API` can be looked at as a set of rules on how 2 machines communicate
 * The average flow looks like this: Client -> HTTP methods -> API -> HTTP request -> Server -> Your data -> API -> JSON -> Client
-### 1) HTTP requests
+### HTTP requests
 A `HTTP` request is made by a client and sent to a named host which is located on a different server. The aim of the `HTTP` request is to get access to a resource on the server. Requests are made using components of a URL (Uniform Resource Locator) which has the information needed to access the resource. `HTTP` requests have several elements :`a request line`, a series of `HTTP headers` and an optional `message body`.
 ![](https_req_elements.png)
 1) `Request line`- The request line is the first line in the message, and it consists of 3 elements:
@@ -27,6 +27,9 @@ A `HTTP` request is made by a client and sent to a named host which is located o
 
 3) `Message body`- Usually left empty in `requets` because the client wants something from the server, and not to send excess information to the server.
 
-### HTTP methods
+### HTTP responses
+This is the servers response to the clients request. The response aims to provide the client with the requested information, to inform the client that the request has been carried out or to inform the client of any errors which my have occurred. The response comprises : the `status line`, `HTTP headers` and `message body`
+![](http_res_elements.png)
+
 
 
