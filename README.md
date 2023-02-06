@@ -31,7 +31,7 @@ With this method you will need to specify the file name everytime you want to ru
 2) Import everything from the file: ` from <file_name> import *`
 This allows us to just call the function as normal without specifying the file name
 
-# Example modules
+### Example modules
 * `datetime` - Can tell you the time in your current machine
 * `math`- has many built-in arithmetic operations
 * `sys`- shows you where you are in your machine

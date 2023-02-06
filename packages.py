@@ -3,6 +3,7 @@
 # pip is pythons package manager, allows us to install and manage additional packages
 # pip install <package name> in terminal
 # if package is still red, click red lightbulb and install through pycharm
+# pip -V checks the version of pip
 
 import requests
 
